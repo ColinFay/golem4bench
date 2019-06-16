@@ -1,0 +1,10 @@
+name: golem4bench
+title:
+username: Colin
+account: Colin
+server: vps597811.ovh.net
+hostUrl: http://vps597811.ovh.net:3939/__api__
+appId: 119
+bundleId: 466
+url: http://vps597811.ovh.net:3939/content/119/
+when: 1560721086.91289

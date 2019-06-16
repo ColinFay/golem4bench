@@ -1,0 +1,10 @@
+name: golem4bench
+title:
+username:
+account: thinkr
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 983663
+bundleId: 2157498
+url: https://thinkr.shinyapps.io/golem4bench/
+when: 1560720950.09122

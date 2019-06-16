@@ -14,7 +14,7 @@ app_ui <- function() {
 golem_add_external_resources <- function(){
   
   addResourcePath(
-    'www', system.file('app/www', package = 'golem4bench')
+    'www', system.file('app/www', package = 'aaaa')
   )
  
   tags$head(

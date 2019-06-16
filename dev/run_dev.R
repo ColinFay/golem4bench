@@ -9,4 +9,4 @@ golem::detach_all_attached()
 golem::document_and_reload()
 
 # Run the application
-golem4bench::run_app()
+aaaa::run_app()
