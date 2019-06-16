@@ -1,0 +1,14 @@
+Package: golem4bench
+Title: PKG_TITLE
+Version: 0.0.0.9000
+Authors@R: person('AUTHOR_FIRST', 'AUTHOR_LAST', email = 'AUTHOR@MAIL.COM', role = c('cre', 'aut'))
+Description: PKG_DESC.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    shiny, 
+    golem
+Remotes: 
+    Thinkr-open/golem
+RoxygenNote: 6.1.0
