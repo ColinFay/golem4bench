@@ -6,7 +6,8 @@ run_app <- function(
   with = c("shinyApp", "runApp", "shinyAppDir")
 ) {
   with <- match.arg(with)
-  # Set local options
+  # Here, we set local options so we can pass 
+  # arguments to the run_app() function
   options("shinycall" = with)
   on.exit(
     options("shinycall" = NULL)
