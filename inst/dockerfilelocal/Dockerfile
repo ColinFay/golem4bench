@@ -5,4 +5,4 @@ RUN R -e 'remotes::install_cran("shiny")'
 COPY aaaa_*.tar.gz /app.tar.gz
 RUN R -e 'remotes::install_local("/app.tar.gz")'
 EXPOSE 80
-CMD R -e "options('shiny.port'=1234,shiny.host='0.0.0.0', 'golem.pkg.name' = 'aaa');aaaa::run_app( 'shinyAppDir' )" # also with shinyApp & shinyAppDir
+CMD R -e "options('shiny.port'=1234,shiny.host='0.0.0.0', 'golem.pkg.name' = 'aaa');aaaa::run_app( 'runApp' )" # also with shinyApp & shinyAppDir
