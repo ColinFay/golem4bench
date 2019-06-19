@@ -8,7 +8,7 @@ The goal of golem4bench is to provide a golem skeleton for benchmarking deployme
 See: 
 
 + The related [GitHub Issue](https://github.com/ThinkR-open/golem/issues/33)
-+ The BlogPost (to come...)
++ The Blog Post (to come on rtask)
 
 ## Deploy note 
 
@@ -16,7 +16,7 @@ Testing is done by variation of `run_app( "runApp" )` / `run_app( "shinyApp" )` 
 
 ### For local testing 
 
-- Use the script dev/run_dev.R
+- Use the script `dev/run_dev.R`
 
 ``` r 
 # Set options here
