@@ -3,13 +3,13 @@ app_ui <- function() {
   tagList(
     fluidPage(
       h1("aaaa"), 
-      h2( getOption('golem.pkg.name') ), 
+      h3( "global options:" ), 
       verbatimTextOutput("global"),
+      h3( "function options:" ), 
       verbatimTextOutput("shinycall")
     )
   )
 }
-
 #' @import shiny
 golem_add_external_resources <- function(){
   

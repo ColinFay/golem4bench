@@ -1,5 +1,7 @@
 # Set options here
-options(golem.app.prod = FALSE) # TRUE = production mode, FALSE = development mode
+options(golem.pkg.name = "aaaa") # TRUE = production mode, FALSE = development mode
+options( "golem.pkg.name" = "aaa")
+
 
 # Detach all loaded packages and clean your environment
 golem::detach_all_attached()
@@ -9,4 +11,4 @@ golem::detach_all_attached()
 golem::document_and_reload()
 
 # Run the application
-aaaa::run_app()
+aaaa::run_app(with = "runApp")
