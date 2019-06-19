@@ -1,7 +1,7 @@
 #' Run the Shiny Application
 #'
 #' @export
-#' @importFrom shiny runApp
+#' @importFrom shiny runApp shinyApp shinyAppDir
 run_app <- function(
   with = c("shinyApp", "runApp", "shinyAppDir")
 ) {
