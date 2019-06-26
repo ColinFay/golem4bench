@@ -3,3 +3,5 @@
 export(run_app)
 import(shiny)
 importFrom(shiny,runApp)
+importFrom(shiny,shinyApp)
+importFrom(shiny,shinyAppDir)

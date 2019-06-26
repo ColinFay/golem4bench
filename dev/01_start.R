@@ -9,7 +9,7 @@
 ## Add information about the package that will contain your app
 
 golem::fill_desc(
-  pkg_name = "aaaa", # The Name of the package containing the App 
+  pkg_name = "ploc", # The Name of the package containing the App 
   pkg_title = "PKG_TITLE", # The Title of the package containing the App 
   pkg_description = "PKG_DESC.", # The Description of the package containing the App 
   author_first_name = "AUTHOR_FIRST", # Your First Name
@@ -52,6 +52,8 @@ golem::use_recommended_dep()
 ## 1.6 Add various tools
 
 # If you want to change the favicon (default is golem's one)
+download.file("https://upload.wikimedia.org/wikipedia/commons/9/92/The_death.png","img.png")
+golem::use_favicon("img.png")
 golem::use_favicon( path = "inst/app/www/favicon.ico" )
 
 # Add helper functions 
